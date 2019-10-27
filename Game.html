@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>spaceship dodging</title>
+<title>DKH의 장애물 피하기</title>
 
 <style>
 body {
@@ -95,7 +95,7 @@ canvas {
    <canvas id="canvas" width="1000px" height="800px" style="z-index: 1"> </canvas>
 
    <br>
-   <input type="button" id="btn" value="START" class="input" />
+   <input type="button" id="btn" value="게임 스타트" class="input" />
    <input type="button" id="btn2" value="HOW TO PLAY" class="input2" />
    <input type="button" id="btn3" value="첫 화면으로" class="input3" />
    <input type="button" id="btn4" value="HIGHSCORE" class="input4" />
@@ -454,8 +454,8 @@ canvas {
 
         function startMessage()
         {
-            drawText(ctx, "DODGING IN THE SPACE", canvas.width/2, canvas.height-700, "bold oblique 50px arial", "navy", "center", "top", "azure", 2);
-         drawText(ctx, "Click the buttons above!!", canvas.width/2, canvas.height-200, "italic 30px gothic", "mistyrose", "center", "top", "mistyrose", 0.5);
+            drawText(ctx, "DKH의 장애물 피하기", canvas.width/2, canvas.height-700, "bold oblique 50px arial", "navy", "center", "top", "azure", 2);
+         drawText(ctx, "버튼을 눌러서 선택이 가능합니다.", canvas.width/2, canvas.height-200, "italic 30px gothic", "mistyrose", "center", "top", "mistyrose", 0.5);
         }
 
         function drawText(ctx, text, x, y, font, color, align, base, stroke, linewidth)
